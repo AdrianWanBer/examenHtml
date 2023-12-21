@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body {
+	background-color: rgb(255, 255, 206);
+}
+
+.cabezera {
+	background-color: lightgreen;
+	display: flex;
+	justify-content: center;
+	text-justify: center;
+	align-items: center;
+
+}
+
+.titulo {
+	color: palevioletred;
+	margin-left: 18rem;
+	margin-right: 18rem;
+}
+
+.enlaces {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 5px;
+}
+
+.losenlaces {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-decoration: none;
+	color: white;
+	border: red dotted 2px;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.selecciones{
+	margin-top: 1.5rem;
+	background-color: white;
+	width: 15%;
+	height: 6rem;
+	border: solid blue 3px;
+}
+.selecciones1{
+	text-align: left;
+}
+.titulo2 {
+	color: white;
+	text-align: center;
+}
+
+.texto {
+	font-size: 1.5rem;
+}
+
+.titulo3 {
+	color: white;
+}
+
+.jamonesCaja {
+	background-color: grey;
+	text-align: center;
+}
+
+.jamones {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jamon1 {
+	width: 500px;
+	height: 300px;
+}
+.jamon2{
+	width: 500px;
+	height: 300px;
+}
+
+.jamon1:hover {
+	filter: blur(4px);
+}
+
+.jamon2:hover {
+	filter: brightness(200%);
+}
+
+
+.final{
+	margin-left: 40%;
+}
+
+.pie{
+	background-image: url(Multimedia/nav.png);
+	padding: 2rem;
+}
